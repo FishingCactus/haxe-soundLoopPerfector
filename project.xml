@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="SoundLoopPerfector" package="com.fishingcactus.tools.SoundLoopPerfector" version="1.0.0" company="FishingCactus" />
+	<app main="Main" path="Export" file="main" />
+	<set name="swf.mergeAlphaChannel"/>
+
+	<source path="Source" />
+	<set name="webgl"/>
+	<haxedef name="webgl"/>
+	<haxelib name="openfl" />
+	<haxelib name="layout" />
+
+	<haxedef name="swflite_parent_fps"/>
+
+	<template path="Templates" />
+
+	<assets path="Assets/sounds" />
+
+	<assets>
+	</assets>
+</project>
